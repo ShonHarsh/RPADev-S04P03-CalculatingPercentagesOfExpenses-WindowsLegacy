@@ -24,6 +24,12 @@ After making a pull request or downloading the project, open the Main.xaml in Ui
 //ToDo
 ```
 
+### Notes
+
+The ForEach loop TypeArgument must be set to the System.Collections.Generic.KeyValuePair.
+
+![](https://shonharsh.github.io/curriculum-vitae/images/RPADev-S04P02-CalculatingLossInvoices-KeyValuePair.jpg)
+
 ### RPA Developer Foundation Sections
 
 1. Get Started With RPA Development
