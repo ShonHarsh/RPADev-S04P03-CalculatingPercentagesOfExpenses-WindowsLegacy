@@ -68,6 +68,8 @@ The ForEach loop TypeArgument must be set to the System.Collections.Generic.KeyV
 
 5. UI Automation With Studio
 
+   P01 [RPADev-S05P01-PasswordGenerator](https://github.com/ShonHarsh/RPADev-S05P01-PasswordGenerator)
+
 6. Selectors In Studio
 
 7. Project Organization In Studio
