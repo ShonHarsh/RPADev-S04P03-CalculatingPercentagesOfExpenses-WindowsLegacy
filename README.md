@@ -70,6 +70,8 @@ The ForEach loop TypeArgument must be set to the System.Collections.Generic.KeyV
 
    P01 [RPADev-S05P01-PasswordGenerator](https://github.com/ShonHarsh/RPADev-S05P01-PasswordGenerator)
 
+   P02 [RPADev-S05P02-TheRPAChallenge](https://github.com/ShonHarsh/RPADev-S05P02-TheRPAChallenge)
+
 6. Selectors In Studio
 
 7. Project Organization In Studio
