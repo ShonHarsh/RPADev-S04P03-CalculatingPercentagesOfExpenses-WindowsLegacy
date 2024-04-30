@@ -1,28 +1,14 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1007,3391" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1101,3311" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
-      <x:String>System.Activities.Expressions</x:String>
-      <x:String>System.Activities.Validation</x:String>
-      <x:String>System.Activities.XamlIntegration</x:String>
-      <x:String>Microsoft.VisualBasic</x:String>
-      <x:String>Microsoft.VisualBasic.Activities</x:String>
       <x:String>System</x:String>
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Data</x:String>
-      <x:String>System.Diagnostics</x:String>
-      <x:String>System.Drawing</x:String>
       <x:String>System.IO</x:String>
-      <x:String>System.Linq</x:String>
-      <x:String>System.Net.Mail</x:String>
-      <x:String>System.Xml</x:String>
-      <x:String>System.Text</x:String>
-      <x:String>System.Xml.Linq</x:String>
-      <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
-      <x:String>System.Windows.Markup</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>System.Activities.DynamicUpdate</x:String>
       <x:String>System.ComponentModel</x:String>
@@ -32,50 +18,48 @@
       <x:String>UiPath.Excel.Activities</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Runtime.InteropServices</x:String>
-      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
-      <AssemblyReference>System.Activities</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-      <AssemblyReference>mscorlib</AssemblyReference>
-      <AssemblyReference>System.Data</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
-      <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>PresentationCore</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
-      <AssemblyReference>System.ValueTuple</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>UiPath.Mail</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Bring together cash and card expenses and calculate percentages on categories&#xD;&#xA;&#xD;&#xA;We have a list of expenses (rent, food, utilities, leisure, savings) for which card payments were made. We have discovered that some transactions are missing, as they were done in cash. Prepare a workflow to bring all the expenses in a single file and calculate the percentages for each expense made.&#xD;&#xA;&#xD;&#xA;Input files:&#xD;&#xA;&#xD;&#xA;CardPayments (.xlsx)&#xD;&#xA;CashPayments (.xlsx)" DisplayName="Sequence Main" sap:VirtualizedContainerService.HintSize="689,3226" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Bring together cash and card expenses and calculate percentages on categories&#xA;&#xA;We have a list of expenses (rent, food, utilities, leisure, savings) for which card payments were made. We have discovered that some transactions are missing, as they were done in cash. Prepare a workflow to bring all the expenses in a single file and calculate the percentages for each expense made.&#xA;&#xA;Input files:&#xA;&#xA;CardPayments (.xlsx)&#xA;CashPayments (.xlsx)" DisplayName="Sequence Main" sap:VirtualizedContainerService.HintSize="1073,3246" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="cardPayments" />
       <Variable x:TypeArguments="sd:DataTable" Name="cashPayments" />
@@ -92,26 +76,26 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="//&#xA;Card Payments&#xA;File: RPADev-S04P03-CalculatingPercentagesOfExpenses-CardPayments.xlsx&#xA;Expense Date Value&#xA;Gym membership 06.01.2019 452&#xA;&#xA;&#xA;Cash Paymenets&#xA;File: RPADev-S04P03-CalculatingPercentagesOfExpenses-CashPayments.xlsx&#xA;Expense Date Value&#xA;Gym membership 06.01.2019 452&#xA;" DisplayName="Sequence Get Data" sap:VirtualizedContainerService.HintSize="647,844" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence sap2010:Annotation.AnnotationText="//&#xA;Card Payments&#xA;File: RPADev-S04P03-CalculatingPercentagesOfExpenses-CardPayments.xlsx&#xA;Expense Date Value&#xA;Gym membership 06.01.2019 452&#xA;&#xA;&#xA;Cash Paymenets&#xA;File: RPADev-S04P03-CalculatingPercentagesOfExpenses-CashPayments.xlsx&#xA;Expense Date Value&#xA;Gym membership 06.01.2019 452&#xA;" DisplayName="Sequence Get Data" sap:VirtualizedContainerService.HintSize="1011,891" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope CardPayments" sap:VirtualizedContainerService.HintSize="434,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="RPADev-S04P03-CalculatingPercentagesOfExpenses-CardPayments.xlsx">
+      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope CardPayments" sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="Data\Input\RPADev-S04P03-CalculatingPercentagesOfExpenses-CardPayments.xlsx">
         <ui:ExcelApplicationScope.Body>
           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do CardPayments Container" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence DisplayName="Do CardPayments Container" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="Sequence_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ExcelReadRange AddHeaders="True" DisplayName="Read Range CardPayments" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="Sheet1">
+              <ui:ExcelReadRange AddHeaders="True" DisplayName="Read Range CardPayments" sap:VirtualizedContainerService.HintSize="354,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" SheetName="Sheet1">
                 <ui:ExcelReadRange.DataTable>
                   <OutArgument x:TypeArguments="sd:DataTable">
                     <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">cardPayments</mca:CSharpReference>
@@ -127,19 +111,19 @@
           </ActivityAction>
         </ui:ExcelApplicationScope.Body>
       </ui:ExcelApplicationScope>
-      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope CashPayments" sap:VirtualizedContainerService.HintSize="434,260" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" WorkbookPath="RPADev-S04P03-CalculatingPercentagesOfExpenses-CashPayments.xlsx">
+      <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope CashPayments" sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" WorkbookPath="Data\Input\RPADev-S04P03-CalculatingPercentagesOfExpenses-CashPayments.xlsx">
         <ui:ExcelApplicationScope.Body>
           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do CashPayments Container" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do CashPayments Container" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:ExcelReadRange AddHeaders="True" DisplayName="Read Range CashPayments" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="Sheet1">
+              <ui:ExcelReadRange AddHeaders="True" DisplayName="Read Range CashPayments" sap:VirtualizedContainerService.HintSize="354,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_2" SheetName="Sheet1">
                 <ui:ExcelReadRange.DataTable>
                   <OutArgument x:TypeArguments="sd:DataTable">
                     <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">cashPayments</mca:CSharpReference>
@@ -156,13 +140,13 @@
         </ui:ExcelApplicationScope.Body>
       </ui:ExcelApplicationScope>
     </Sequence>
-    <ui:ForEach x:TypeArguments="sd:DataRow" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Iterate though the CardPayment table by row." DisplayName="For Each CardPayment DataTable" sap:VirtualizedContainerService.HintSize="647,1086" sap2010:WorkflowViewState.IdRef="ForEach`1_7">
+    <ui:ForEach x:TypeArguments="sd:DataRow" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Iterate though the CardPayment table by row." DisplayName="For Each CardPayment DataTable" sap:VirtualizedContainerService.HintSize="1011,1100" sap2010:WorkflowViewState.IdRef="ForEach`1_7">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="item" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body CardPayment Container" sap:VirtualizedContainerService.HintSize="611,921" sap2010:WorkflowViewState.IdRef="Sequence_10">
+          <Sequence DisplayName="Body CardPayment Container" sap:VirtualizedContainerService.HintSize="975,943" sap2010:WorkflowViewState.IdRef="Sequence_10">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="dataExpense" />
               <Variable x:TypeArguments="x:Double" Name="dataValue" />
@@ -172,7 +156,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" sap2010:Annotation.AnnotationText="The DataExpense variable will hold the expense category." ColumnName="Expense" DisplayName="Get Row Item DataExpense" sap:VirtualizedContainerService.HintSize="569,216" sap2010:WorkflowViewState.IdRef="GetRowItem_3">
+            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" sap2010:Annotation.AnnotationText="The DataExpense variable will hold the expense category." ColumnName="Expense" DisplayName="Get Row Item DataExpense" sap:VirtualizedContainerService.HintSize="913,228" sap2010:WorkflowViewState.IdRef="GetRowItem_3">
               <ui:GetRowItem.Row>
                 <InArgument x:TypeArguments="sd:DataRow">
                   <mca:CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">item</mca:CSharpValue>
@@ -189,7 +173,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:GetRowItem>
-            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" sap2010:Annotation.AnnotationText="The DataValue variable will hold the expense monetary unit value." ColumnName="Value" DisplayName="Get Row Item DataValue" sap:VirtualizedContainerService.HintSize="569,216" sap2010:WorkflowViewState.IdRef="GetRowItem_4">
+            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" sap2010:Annotation.AnnotationText="The DataValue variable will hold the expense monetary unit value." ColumnName="Value" DisplayName="Get Row Item DataValue" sap:VirtualizedContainerService.HintSize="913,228" sap2010:WorkflowViewState.IdRef="GetRowItem_4">
               <ui:GetRowItem.Row>
                 <InArgument x:TypeArguments="sd:DataRow">
                   <mca:CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">item</mca:CSharpValue>
@@ -206,7 +190,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:GetRowItem>
-            <If sap2010:Annotation.AnnotationText="The DataDictionary object is initialized in the variables pane.  It will store the expense category and the monetary unit value.&#xA;DataDictionary&lt;String, Double&gt;" DisplayName="If DataDictionary Populate" sap:VirtualizedContainerService.HintSize="569,317" sap2010:WorkflowViewState.IdRef="If_2">
+            <If sap2010:Annotation.AnnotationText="The DataDictionary object is initialized in the variables pane.  It will store the expense category and the monetary unit value.&#xA;DataDictionary&lt;String, Double&gt;" DisplayName="If DataDictionary Populate" sap:VirtualizedContainerService.HintSize="913,315" sap2010:WorkflowViewState.IdRef="If_2">
               <If.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">dataDictionary.ContainsKey(dataExpense.ToString())</mca:CSharpValue>
@@ -218,7 +202,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <If.Then>
-                <Assign sap2010:Annotation.AnnotationText="Case that the key exists and the value needs to be added to the dictionary." DisplayName="Assign DataDictionary Update" sap:VirtualizedContainerService.HintSize="262,102" sap2010:WorkflowViewState.IdRef="Assign_3">
+                <Assign sap2010:Annotation.AnnotationText="Case that the key exists and the value needs to be added to the dictionary." DisplayName="Assign DataDictionary Update" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="Assign_3">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Double">
                       <mca:CSharpReference x:TypeArguments="x:Double" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">dataDictionary[dataExpense]</mca:CSharpReference>
@@ -237,7 +221,7 @@
                 </Assign>
               </If.Then>
               <If.Else>
-                <Assign sap2010:Annotation.AnnotationText="Case the the key does not exist." DisplayName="Assign DataDictionary New Key" sap:VirtualizedContainerService.HintSize="262,91" sap2010:WorkflowViewState.IdRef="Assign_4">
+                <Assign sap2010:Annotation.AnnotationText="Case the the key does not exist." DisplayName="Assign DataDictionary New Key" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="Assign_4">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:Double">
                       <mca:CSharpReference x:TypeArguments="x:Double" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">dataDictionary[dataExpense]</mca:CSharpReference>
@@ -270,25 +254,25 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEach>
-    <Sequence DisplayName="Sequence Printing" sap:VirtualizedContainerService.HintSize="647,622" sap2010:WorkflowViewState.IdRef="Sequence_13">
+    <Sequence DisplayName="Sequence Printing" sap:VirtualizedContainerService.HintSize="1011,933" sap2010:WorkflowViewState.IdRef="Sequence_13">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:Double)" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="This ForEach loop TypeArgument must be set to the System.Collections.Generic.KeyValuePair." DisplayName="For Each" sap:VirtualizedContainerService.HintSize="340,429" sap2010:WorkflowViewState.IdRef="ForEach`1_10">
+      <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:Double)" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="This ForEach loop TypeArgument must be set to the System.Collections.Generic.KeyValuePair." DisplayName="For Each" sap:VirtualizedContainerService.HintSize="532,358" sap2010:WorkflowViewState.IdRef="ForEach`1_10">
         <ui:ForEach.Body>
           <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:Double)">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:String, x:Double)" Name="item" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body DataDictionary Container" sap:VirtualizedContainerService.HintSize="304,253" sap2010:WorkflowViewState.IdRef="Sequence_11">
+            <Sequence DisplayName="Body DataDictionary Container" sap:VirtualizedContainerService.HintSize="496,190" sap2010:WorkflowViewState.IdRef="Sequence_11">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+              <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_5">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:Double">
                     <mca:CSharpReference x:TypeArguments="x:Double" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">totalPaymentsValue</mca:CSharpReference>
@@ -300,11 +284,6 @@
                   </InArgument>
                 </Assign.Value>
               </Assign>
-              <WriteLine DisplayName="Write Line DataDictionary Key &amp; Value" sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="WriteLine_6">
-                <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">item.Key + " " + item.Value.ToString()</mca:CSharpValue>
-                </InArgument>
-              </WriteLine>
             </Sequence>
           </ActivityAction>
         </ui:ForEach.Body>
@@ -319,20 +298,42 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:ForEach>
-      <WriteLine DisplayName="Write Line TotalPaymentsValue" sap:VirtualizedContainerService.HintSize="340,61" sap2010:WorkflowViewState.IdRef="WriteLine_8">
+      <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:Double)" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="This ForEach loop TypeArgument must be set to the System.Collections.Generic.KeyValuePair." DisplayName="For Each" sap:VirtualizedContainerService.HintSize="532,338" sap2010:WorkflowViewState.IdRef="ForEach`1_11">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:Double)">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:String, x:Double)" Name="item" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body DataDictionary Container" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Sequence_14">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <WriteLine DisplayName="Write Line DataDictionary Key &amp; Value" sap:VirtualizedContainerService.HintSize="354,62" sap2010:WorkflowViewState.IdRef="WriteLine_9">
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">item.Key + " " + item.Value.ToString() + ", %: " + (item.Value / totalPaymentsValue) * 100</mca:CSharpValue>
+                </InArgument>
+              </WriteLine>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+        <ui:ForEach.Values>
+          <InArgument x:TypeArguments="sc:IEnumerable">
+            <mca:CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">dataDictionary</mca:CSharpValue>
+          </InArgument>
+        </ui:ForEach.Values>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ForEach>
+      <WriteLine DisplayName="Write Line TotalPaymentsValue" sap:VirtualizedContainerService.HintSize="532,62" sap2010:WorkflowViewState.IdRef="WriteLine_8">
         <InArgument x:TypeArguments="x:String">
           <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">"The total payments value is: " + totalPaymentsValue</mca:CSharpValue>
         </InArgument>
       </WriteLine>
-    </Sequence>
-    <Sequence sap2010:Annotation.AnnotationText="//ToDo&#xD;&#xA;add percentages&#xD;&#xA;Sort the expense categories&#xD;&#xA;document&#xD;&#xA;add total to print&#xD;&#xA;Pretty print existing key+value print&#xD;&#xA;Pretty print S04P02 exercise key+value print&#xD;&#xA;update readme document S04P03&#xD;&#xA;update readme document S04P02" sap:VirtualizedContainerService.HintSize="647,300" sap2010:WorkflowViewState.IdRef="Sequence_12">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Finish //ToDos" />
     </Sequence>
   </Sequence>
 </Activity>

@@ -1,0 +1,12 @@
+04/29/2024 18:43:00 => [Debug] Debug started for file: Main
+04/29/2024 18:43:00 => [Info] RPADev-S04P03-CalculatingPercentagesOfExpenses-WindowsLegacy execution started
+04/29/2024 18:43:04 => [Debug] Food 5178, %: 28.4146408385008
+04/29/2024 18:43:04 => [Debug] Vacation 2000, %: 10.9751413049443
+04/29/2024 18:43:04 => [Debug] Savings 2500, %: 13.7189266311804
+04/29/2024 18:43:04 => [Debug] Rent 7500, %: 41.1567798935411
+04/29/2024 18:43:04 => [Debug] Electricity 551, %: 3.02365142951216
+04/29/2024 18:43:04 => [Debug] Plumbing 394, %: 2.16210283707403
+04/29/2024 18:43:04 => [Debug] Phone 100, %: 0.548757065247215
+04/29/2024 18:43:04 => [Debug] The total payments value is: 18223
+04/29/2024 18:43:04 => [Debug] Finish //ToDos
+04/29/2024 18:43:04 => [Info] RPADev-S04P03-CalculatingPercentagesOfExpenses-WindowsLegacy execution ended in: 00:00:03
